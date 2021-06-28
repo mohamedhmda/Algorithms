@@ -1,5 +1,4 @@
 import unittest
-from unittest import result
 
 target = __import__("Two_number_sum")
 
