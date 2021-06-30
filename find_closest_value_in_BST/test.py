@@ -4,15 +4,16 @@ target = __import__("find_closest_value_in_BST")
 
 class TestFindClosestValueInBST(unittest.TestCase):
     def setUp(self):
+        # level 1
         self.tree = target.Node(9)
-
+        # level 2
         self.tree.left = target.Node(4)
         self.tree.right = target.Node(17)
-
+        # level 3
         self.tree.left.left = target.Node(3)
         self.tree.left.right = target.Node(6)
         self.tree.right.right = target.Node(22)
-
+        # level 4
         self.tree.left.right.left = target.Node(5)
         self.tree.left.right.right = target.Node(7)
 
