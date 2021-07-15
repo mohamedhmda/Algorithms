@@ -14,6 +14,12 @@ class TestRunLenghtEncoding(unittest.TestCase):
         new_string = "a1b1c1d1"
         result = target.run_lenght_encoding(string)
         self.assertEqual(result, new_string)
+
+    def test_case_3(self):
+        string = "wwwwaaadexxxxxxywww"
+        new_string = "w4a3d1e1x6y1w3"
+        result = target.run_lenght_encoding(string)
+        self.assertEqual(result, new_string)
     
 
 if __name__ == '__main__':
