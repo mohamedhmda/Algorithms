@@ -13,5 +13,3 @@ def run_lenght_encoding(string):
 
     return new_string    
     
-
-print(run_lenght_encoding("abcd"))
